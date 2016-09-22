@@ -1,6 +1,6 @@
 {
-  "name": "angular-lazy-bundler",
-  "version": "0.2.3",
+  "name": "@prodest/angular-lazy-bundler",
+  "version": "0.3.1",
   "description": "",
   "main": "dist/bundler.js",
   "files": [
@@ -15,19 +15,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/matoilic/angular-lazy-bundler.git"
+    "url": "git+ssh://git@github.com/prodest/angular-lazy-bundler.git"
   },
-  "author": "Mato Ilic",
+  "author": "Mato Ilic, Daniel Hoisel",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/matoilic/angular-lazy-bundler/issues"
+    "url": "https://github.com/prodest/angular-lazy-bundler/issues"
   },
-  "homepage": "https://github.com/matoilic/angular-lazy-bundler#readme",
+  "homepage": "https://github.com/prodest/angular-lazy-bundler#readme",
   "dependencies": {
     "bluebird": "^3.4.0",
     "fs-extra": "^0.30.0",
     "glob": "^7.0.3",
-    "lodash": "^4.13.1",
+    "lodash": "^3.10.1",
     "systemjs-builder": "^0.15.18"
   },
   "devDependencies": {

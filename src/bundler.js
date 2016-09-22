@@ -152,7 +152,7 @@ class Bundler {
      * @returns {Promise}
      */
     bundleRemainingComponents() {
-        const indexFiles = glob.sync(path.join(this._options.source, '**', 'index.js'));
+        const indexFiles = glob.sync(path.join(this._options.source, 'components', '**', 'index.js'));
 
         return Promise
             .map(indexFiles, index => this._normalizePath(path.relative(this._options.source, index)).slice(0, -3))
