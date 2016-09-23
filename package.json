@@ -1,6 +1,6 @@
 {
   "name": "@prodest/angular-lazy-bundler",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "",
   "main": "dist/bundler.js",
   "files": [
