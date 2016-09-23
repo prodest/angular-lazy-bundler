@@ -1,7 +1,7 @@
 # Angular Lazy Bundler
 
-[![Dependency Status](https://david-dm.org/matoilic/angular-lazy-bundler.svg)](https://david-dm.org/matoilic/angular-lazy-bundler)
-[![devDependency Status](https://david-dm.org/matoilic/angular-lazy-bundler/dev-status.svg)](https://david-dm.org/matoilic/angular-lazy-bundler#info=devDependencies)
+[![Dependency Status](https://david-dm.org/prodest/angular-lazy-bundler.svg)](https://david-dm.org/prodest/angular-lazy-bundler)
+[![devDependency Status](https://david-dm.org/prodest/angular-lazy-bundler/dev-status.svg)](https://david-dm.org/prodest/angular-lazy-bundler#info=devDependencies)
 
 ## Table of contents
 - [What does it do?](#what-does-it-do)
