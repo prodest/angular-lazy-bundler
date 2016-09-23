@@ -4,10 +4,7 @@ var babel = require('gulp-babel');
 gulp.task('compile', function() {
     return gulp
         .src('src/**/*.js')
-        .pipe(babel({
-            modules: 'common',
-            loose: 'all'
-        }))
+        .pipe(babel())
         .pipe(gulp.dest('dist'));
 });
 
