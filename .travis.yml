@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '5'
+- '6'
+deploy:
+  provider: npm
+  email: daniel.hoisel@prodest.es.gov.br
+  api_key:
+    secure: F80Zj/9ob/q9ETofdrAPKQmS1QChMTgzGTu/1u+MLK1LAokyuSauOeoiECRfJ9rc151pjanenmG9KJJkW9aPcxRpS/ZY9rZP/eRh7jywtZaDC0FsTIq0m50IPCLtlkKD5pQ5+WMeDfmkO0gS8DxiTC1W+6yO/2f7jT16KPE4G2U+/czuMGf2d/qRJmpP8W4xsaF9aD+NjdkTGv3m7PBiaFYuzZnu9uUbpfVPh4XwgvlLSRr/353AdgkhGqXlmlz8L5aPK8/lW+uh95/j6mXZFIvSZ3XM4lsVZ3Xpxp1Vtb4674M7T6Jc8dfqsyIWitnPtzrbtJX4fd58Hpxlz5UjP6azC4uIo8mhEvIrC5wTSOO/ACn32VS+/8929rSC+kgKu9z4Wqd5UPfmCesbFJW7bk+cbSOtqeGFs4/5u81TGOfAPSxMH+gsk9dwYIkWUdtaryQd7B0Vg2tEeh1uC4P2B3rFXRJuP/HkGg+qgBllfkmo4d0Qnxk4Vxc/IFIFqNr7ID0yMEgbp2SgDnxpB/kkP+XcE6nVAt4s2IVxHuJjSoOUdUBHKzidfzK4+IXAjR5rIU1WWI6+aYM1bBa0sg6VsMq0m6nAzElUGjCv1WcRwfaQK+0Q7KXTJBFKDz/A+sN72kgsFzFnTX8SVpddr+E2fHYZ+s8E6+dQxlIM0Xi+enc=
+  on:
+    tags: true
+    

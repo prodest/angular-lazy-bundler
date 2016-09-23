@@ -11,12 +11,17 @@
   ],
   "scripts": {
     "prepublish": "gulp compile",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/prodest/angular-lazy-bundler.git"
   },
+  "keywords": [
+    "bundle",
+    "systemjs",
+    "prodest"
+  ],
   "author": "Mato Ilic, Daniel Hoisel",
   "license": "BSD-3-Clause",
   "bugs": {
